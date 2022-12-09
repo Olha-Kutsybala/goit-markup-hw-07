@@ -1,0 +1,26 @@
+.join {
+    display: inline-block;
+    align-items: flex-start;
+    width: 206px;
+    height: 80px;
+    margin-left: 70px;
+}
+
+.join__text {
+    margin-bottom: 20px;
+    font-size: inherit;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $white-color;
+}
+
+.social__link--color {
+    background-color: $footer-social-bgc;
+    fill: $white-color;
+
+    &:hover,
+    &:focus {
+        background-color: $accent-color;
+        }
+}
+
