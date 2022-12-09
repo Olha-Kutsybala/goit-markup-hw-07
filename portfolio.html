@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
@@ -21,25 +21,22 @@
             <a href="./index.html" class="link logo  page-header__logo page-header__link"><span
                     class="accent">Web</span>Studio</a>
             <ul class="list page-header__nav">
-                <li class="item current-item"><a href="./index.html" class="current link page-header__link">Студія</a>
-                </li>
-                <li class="item"><a href="./portfolio.html"
-                        class="link page-header__item page-header__link">Портфоліо</a></li>
-                <li class="item"><a href="" class="link page-header__item page-header__link">Контакти</a></li>
+                <li class="current-item"><a href="./index.html" class="current link page-header__link">Студія</a></li>
+                <li><a href="./portfolio.html" class="link page-header__item page-header__link">Портфоліо</a></li>
+                <li><a href="" class="link page-header__item page-header__link">Контакти</a></li>
             </ul>
         </nav>
         <ul class="list contact">
-            <li class="item">
+            <li>
                 <a href="mailto:info@devstudio.com" lang="en" class="link page-header__link--distance contact__nav">
-                    <svg class="contact__nav" width="16" height="12">
+                    <svg class="contact__icon" width="16" height="12">
                         <use href="./images/icons.svg#icon-envelope"></use>
                     </svg>
                     info@devstudio.com
                 </a>
             </li>
-            <li class="item"><a href="tel:+380961111111"
-                    class="link page-header__link--distance page-header__item contact__nav">
-                    <svg class="contact__nav" width="10" height="16">
+            <li><a href="tel:+380961111111" class="link page-header__link--distance page-header__item contact__nav">
+                    <svg class="contact__icon" width="10" height="16">
                         <use href="./images/icons.svg#icon-smartphone"></use>
                     </svg>
                     +38 096 111 11 11</a></li>
@@ -58,7 +55,7 @@
             </ul>
             <h1 class="visually-hidden">Портфоліо</h1>
             <ul class="list portfolio__list">
-                <li class="item portfolio__containe1 portfolio__container--right portfolio__container--bottom">
+                <li class="item portfolio__container portfolio__container--bottom">
                     <a href="" class="link">
                         <div class="overlay">
                             <img src="./images/img().jpg" class="no-gap" alt="Фото трьох людей" width="370" height="294">
@@ -73,10 +70,10 @@
                         </div>
                     </a> 
                 </li>
-                <li class="item portfolio__container portfolio__container--right portfolio__container--bottom">
+                <li class="item portfolio__container portfolio__container--bottom">
                         <a href="" class="link">
                             <div class="overlay">
-                                <img src="./images/img(1).jpg" class="portfolio-image no-gap" alt="Гра в баскетбол" width="370" height="294">
+                                <img src="./images/img(1).jpg" class="no-gap" alt="Гра в баскетбол" width="370" height="294">
                                 <div class="overlay__thumb">
                                     <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                                         відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -84,11 +81,11 @@
                             </div>
                             <div class="portfolio__box">
                                 <h2 class="portfolio__title">Постер New Orlean vs Golden Star</h2>
-                                <p class="portfolio__text">Дизайн</p>
+                                <p class="portfolio__project">Дизайн</p>
                             </div>
                         </a>
                 </li>
-                <li class="item  portfolio__container portfolio__container--bottom">
+                <li class="portfolio__container portfolio__container--bottom">
                     <a href="" class="link">
                         <div class="overlay">
                             <img src="./images/img(2).jpg" class="no-gap" alt="Логотип в вигляді риби і назва ресторану" width="370" height="294">
@@ -100,11 +97,11 @@
                         </div>
                         <div class="portfolio__box">
                             <h2 class="portfolio__title">Ресторан Seafood</h2>
-                            <p class="portfolio__text">Додаток</p>
+                            <p class="portfolio__project">Додаток</p>
                         </div>
                     </a>  
                 </li>
-                <li class="item  portfolio__container portfolio__container--right portfolio__container--bottom">
+                <li class="item  portfolio__container portfolio__container--bottom">
                     <a href="" class="link">
                         <div class="overlay">
                             <img src="./images/img(3).jpg" class="no-gap" alt="Наушники" width="370" height="294">
@@ -116,11 +113,11 @@
                         </div>
                         <div class="portfolio__box">
                             <h2 class="portfolio__title">Проєкт Prime</h2>
-                            <p class="portfolio__text">Маркетинг</p>
+                            <p class="portfolio__project">Маркетинг</p>
                         </div>
                     </a>
                 </li>
-                <li class="item  portfolio__container portfolio__container--right portfolio__container--bottom">
+                <li class="item  portfolio__container portfolio__container--bottom">
                     <a href="" class="link">
                         <div class="overlay">
                             <img src="./images/img(4).jpg" class="no-gap" alt="Дві коробоки" width="370" height="294">
@@ -131,12 +128,12 @@
                             </div>
                         </div>
                         <div class="portfolio__box">
-                            <h2 class="portfoli0__title">Проєкт Boxes</h2>
-                            <p class="portfolio__text">Додаток</p>
+                            <h2 class="portfolio__title">Проєкт Boxes</h2>
+                            <p class="portfolio__project">Додаток</p>
                         </div>
                     </a>
                 </li>
-                <li class="item  portfolio__container portfolio__container--bottom">
+                <li class="portfolio__container portfolio__container--bottom">
                     <a href="" class="link">
                         <div class="overlay">
                             <img src="./images/img(5).jpg" class="no-gap" alt="Монітор" width="370" height="294">
@@ -148,11 +145,11 @@
                         </div>
                         <div class="portfolio__box">
                             <h2 class="portfolio__title">Inspiration has no Borders</h2>
-                            <p class="portfolio__text">Веб-сайт</p>
+                            <p class="portfolio__project">Веб-сайт</p>
                         </div>
                     </a>
                 </li>
-                <li class="item  portfolio__container portfolio__container--right">
+                <li class="item  portfolio__container">
                     <a href="" class="link">
                         <div class="overlay">
                             <img src="./images/img(6).jpg" class="no-gap" alt="Відкритий журнал" width="370" height="294">
@@ -164,11 +161,11 @@
                         </div>
                         <div class="portfolio__box">
                             <h2 class="portfolio__title">Видання Limited Edition</h2>
-                            <p class="portfolio__text">Дизайн</p>
+                            <p class="portfolio__project">Дизайн</p>
                         </div>
                     </a>
                 </li>
-                <li class="item  portfolio__container portfolio__container--right">
+                <li class="item  portfolio__container">
                     <a href="" class="link">
                         <div class="overlay">
                             <img src="./images/img(7).jpg" class="no-gap" alt="Підвіска з логотипом" width="370" height="294">
@@ -180,11 +177,11 @@
                         </div>
                         <div class="portfolio__box">
                             <h2 class="portfolio__title">Проєкт LAB</h2>
-                            <p class="portfolio__text">Маркетинг</p>
+                            <p class="portfolio__project">Маркетинг</p>
                         </div>
                     </a>              
                 </li>
-                <li class="item  portfolio__container">
+                <li class="portfolio__container">
                     <a href="" class="link">
                         <div class="overlay">
                             <img src="./images/img(8).jpg" class="no-gap" alt="Робота за ноутбуком" width="370" height="294">
@@ -196,7 +193,7 @@
                         </div>
                         <div class="portfolio__box">
                             <h2 class="portfolio__title">Growing Business</h2>
-                            <p class="portfolio__text">Додаток</p>
+                            <p class="portfolio__project">Додаток</p>
                         </div>
                     </a>                  
                 </li>
@@ -244,7 +241,7 @@
                         </svg>
                     </a>
                 </li>
-                <li class="item">
+                <li>
                     <a href="" class="link social__link social__link--color">
                         <svg class="icon" width="20" height="20">
                             <use href="./images/icons.svg#icon-linkedin"></use>
