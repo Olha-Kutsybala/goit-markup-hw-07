@@ -643,6 +643,9 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .footer__address {
@@ -663,17 +666,15 @@ p {
 
 .join {
   display: inline-block;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   width: 206px;
   height: 80px;
   margin-left: 70px;
 }
 
 .join__text {
+  display: block;
   margin-bottom: 20px;
-  font-size: inherit;
+  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -688,13 +689,17 @@ p {
 }
 
 .join__form {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   margin-left: 93px;
 }
 
+.join__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .join__input {
+  display: block;
   min-width: 358px;
   height: 50px;
   padding-left: 16px;
@@ -709,11 +714,8 @@ p {
 }
 
 .join__button {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: block;
   min-width: 200px;
-  height: 50px;
   padding-left: 28px;
   margin-left: 12px;
   -webkit-box-align: center;
